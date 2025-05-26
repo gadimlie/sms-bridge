@@ -1,0 +1,50 @@
+{
+    "name": "gadimlie/sms-bridge",
+    "description": "Library to easy use SMS Azerbaijan services in Laravel applications.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "sms",
+        "laravel",
+        "azerbaijan",
+        "sms-azerbaijan",
+        "sms-bridge",
+        "sms-bridge-azerbaijan"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gadimlie\\SmsBridge\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gadimli Emin",
+            "email": "gadimlie@gmail.com",
+            "homepage": "https://github.com/gadimlie",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/gadimlie/sms-bridge",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gadimlie\\SmsBridge\\Providers\\SmsBridgeServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gadimlie/sms-bridge"
+        }
+    ]
+}
